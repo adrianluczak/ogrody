@@ -1,0 +1,42 @@
+
+@media(max-width: 1024px){
+	.carousel-caption {
+		padding-top: 5rem;
+	}
+	.carousel-caption h1,
+	.carousel-caption p{
+		font-size: 2rem;
+		line-height: 2.5rem;
+	}
+
+	
+}
+
+}
+
+@media(max-width: 767px){
+	.carousel-caption h1,
+	.carousel-caption p{
+		font-size: 2rem;
+		line-height: 2.5rem;
+	}
+
+	
+}
+
+
+@media(max-width: 480px){
+
+	.carousel-caption{
+		top: 10px;
+		padding-top: 1rem;
+	}
+	
+	.carousel-caption p{
+		font-size: 1rem;
+		line-height: 1rem;
+	}
+
+	
+
+}

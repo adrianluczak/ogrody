@@ -1,0 +1,87 @@
+
+/*-------------------------*/
+/*-------MENU========------*/
+/*-------------------------*/
+
+.sk-header-item-link{
+	font-size: 1.1rem;
+}
+// tlo menu
+.bg-company-white{
+	background-color: #ffffff;
+}
+
+
+// przycisk  menu
+.navbar-light .navbar-nav >li >a{
+	color: #000000;
+	margin-left: 5px;
+	border: 1px solid transparent;
+	line-height: 1rem;
+}
+
+// przycisk  menu hover
+.navbar-light .navbar-nav  >li >a:hover{
+	display: block;
+	color: #2a6f05;
+	border: 1px solid transparent;
+	border-color: #2a6f05;
+	line-height: 1rem;
+	border-radius: 4px;
+	transition: all 0.7s ease;
+}
+
+.navbar-light .navbar-nav  > .active >a{
+	display: block;
+	border-color: #2a6f05;
+	background-color: #2a6f05;
+	border-radius: 4px;
+	
+}
+
+#logo img{
+	display: block;
+	float: none;
+	margin-top: -1rem;
+	margin-right: 10rem;
+}
+
+/*-------------------------------------*/
+/*-------EFEKTY CARPUSEL=========------*/
+/*------------------------------------*/
+#pokaz-slajdow{
+	padding-top: 2rem;
+	
+
+}
+
+
+.carousel .item img{
+	width: 100%;
+
+}
+
+.carousel .carousel-control{
+	background: none;
+	border: none;
+	top: 50%;
+} 
+
+.carousel-caption{
+	padding-top: 28rem;
+	top:100px;
+	bottom: auto;
+}
+
+.carousel-caption h1{
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 8rem;
+	color: #ffffff;
+}
+
+.carousel-caption p{
+	font-size: 2.5rem;
+	font-weight: 300;
+	color: #ffffff;
+}
